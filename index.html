@@ -1,36 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Index page</title>
-    <link rel="stylesheet" type="text/css" href="media/css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wwwebstudy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
-
-<header>
-    <h1 style="text-align: center;">Proyecto de sitio Web 2021 - 4.</h1>
-</header>
-
 <body>
-    <div class="style_2">
-        
-        <div style="text-align: center; padding-top: 5em; padding-bottom: 2em;">
-            <img src="media/img/smartmockups_ktrhc13d.jpg" style="width: 40%;"/> 
+    <header class="container-fulid">
+        <div class="row">
+            <div class="col-3"><img src="media/img/Logo_sin_fondo.png" alt="asd asd"></div>
+            <div class="col-6"><div style="position: relative; top: 80px; text-align: center;"><h1>Proyecto de sitio Web 2021 - 4.</h1></div></div>
+            <div class="col-3"></div>
         </div>
-        <div style="text-align: center;">
-            <a href="fase2/design.html">Dise&ntilde;o del curso Flex Box y las Listas y enlaces</a>
-        </div>
-    </div>
-</body>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Design</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Aprendizaje
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="fase2/design.html">FlexBox</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Listas y Enlaces</a></li>
+                </ul>
+              </li>
+              <!--Menú de Recursos Digitales-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Recursos Digitales
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">FlexBox</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Listas y Enlaces</a></li>
+                </ul>
+              </li>
 
-<footer>
-    <h3>
-        <ul>
-            <li>Nombre: Camilo Andrés Dorado Sánchez</li>
-            <li>Programa: Ingeniería de Sistemas</li>
-            <li>Fecha: 28 de agosto de 2021</li>
-            <li>Correo electrónico: cadorados@unadvirtual.edu.co</li>
-            <li>Skype: caddss</li>
-            <li>Celular: 3118616985</li>
-        </ul>
-    </h3>
-</footer>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tests
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Test FlexBox</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Test Listas y Enlaces</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br/>
+      <main class="container-fulid">
+        <div class="row">
+            <div class="col-md-9" style="text-align: center;"">
+                <img src="media/img/smartmockups_ktrhc13d.jpg" style="width: 70%;"/> 
+            </div>
+            <aside class="col-md-3" style="text-align: right;">
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=450&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="700px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </aside>
+        </div>
+      </main>
+      <footer class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="media/img/certificaciones.png">
+            </div>
+            <aside class="col-md-6">
+                <div style="position: relative; top: 1em; left: 5em;">
+                    © Copyright Camilo Andres Dorado Sanchez 2021<br/>
+                    mail: cadorados@unadvirtual.edu.co<br/>
+                    Autor: Camilo Andr&eacute;s Dorado S&aacute;nchez<br/>
+                    Skype: caddss<br/>
+                    Actualizaci&oacute;n: 19 de septiembre de 2021<br/>
+                </div>
+            </aside>
+        </div>
+      </footer>
+</body>
 </html>
